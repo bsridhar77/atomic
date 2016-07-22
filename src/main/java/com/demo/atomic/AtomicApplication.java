@@ -23,7 +23,7 @@ public class AtomicApplication {
     @RequestMapping("/sayHello")
     public String sayHello() {
     	LOGGER.info("returning Hello");
-    	return "Hello:";
+    	return "Hello  :";
     }
 
 }
